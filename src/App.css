@@ -4,7 +4,18 @@
   box-sizing: border-box;
   
 }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
 body{
   overflow-x: hidden;
+  font-family: 'Poppins', sans-serif !important;
+
 }
 
+
+h1{
+  font-weight: 700 !important;
+}
+h5{
+  font-weight: 600 !important;
+}

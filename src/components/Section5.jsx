@@ -7,9 +7,10 @@ const Section5 = () => {
       <Container className="text-center text-light">
         <h1>BUY. SELL. TRADE</h1>
         <h5>
-          Stablecoin enables you to buy, sell and trade cryptocurrencies in just
+          10 Swap enables you to buy, sell and trade cryptocurrencies in just
           three simple steps
         </h5>
+        <br />
         <Row className="g-3">
           <Col sm={12} md={6} lg={4}>
             <Card

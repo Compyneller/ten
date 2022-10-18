@@ -13,4 +13,27 @@
         object-fit: cover;
         mix-blend-mode: lighten;
     }
+    h1{
+        font-weight: 700;
+        font-size: 3vw;
+    }
+    
+}
+@media screen and (max-width : 950px) {
+    .hero-container{
+        position: relative;
+        text-align: center;
+        video{
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+
+        }
+        h1{
+            font-size: 10vw;
+        }
+    }
+    
 }
