@@ -39,7 +39,11 @@ const About = () => {
               is also very safe to use.
             </p>
           </Col>
-          <Col sm={12} lg={6} className="d-flex align-items-center">
+          <Col
+            sm={12}
+            lg={6}
+            className="d-flex align-items-center bg-light"
+            style={{ borderRadius: "50%" }}>
             <img src={logo} alt="" className="w-100" />
           </Col>
         </Row>

@@ -76,7 +76,7 @@ const Section6 = () => {
                 />
                 <h5>HIGH DEMAND</h5>
                 <p>
-                  Demand for stablecoin in high, so you can earn interest for
+                  Demand for 10 Swap is high, so you can earn interest for
                   lending yours. Make sure you're aware of the risks before
                   lending.
                 </p>
