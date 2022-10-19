@@ -1,7 +1,7 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import logo from "../../assets/10-SWAP_Logo-03_12-Oct'22.png";
+import logo from "../../assets/Group 1.png";
 import { Link } from "react-router-dom";
 const NavBarComp = () => {
   return (
