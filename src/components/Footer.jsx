@@ -73,6 +73,13 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <div
+        className="d-flex text-light justify-content-center align-items-center bg-dark"
+        style={{ background: "#212121" }}>
+        <p className="text-light my-auto py-3">
+          <b>10 swap is the trading name for Fireblocks Private Ltd</b>
+        </p>
+      </div>
     </>
   );
 };
