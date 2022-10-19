@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import image from "../../assets/10 SWAP_IMG 01_19 Oct'22.jpg";
+import image from "../../assets/10 SWAP_IMG 01_19 Oct'22.png";
 import { motion } from "framer-motion";
 const Section3 = () => {
   return (

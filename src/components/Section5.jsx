@@ -74,7 +74,7 @@ const Section5 = () => {
                           bounce: 0.3,
                           delay: 1,
                         }}>
-                        Download our mobile app on App Store for IOS users
+                        Download our mobile app on App store & Play store users
                       </motion.p>
                     </Col>
                   </Row>

@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import logo from "../assets/Group 1.png";
+import logo from "../assets/10-SWAP_Logo-03_12-Oct'22.png";
 import { Link } from "react-router-dom";
 import sheild from "../assets/icons8-shield-100.png";
 import alchemy from "../assets/Alchemy.67ed4ee30c45cc6a0b94.png";

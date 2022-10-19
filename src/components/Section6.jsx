@@ -35,7 +35,7 @@ const Section6 = () => {
             },
           }}>
           <SplideSlide>
-            <Card className="shadow">
+            <Card className="shadow" style={{ height: "100%" }}>
               <Card.Body className="d-flex flex-column align-items-center">
                 <img
                   src="https://img.icons8.com/fluent/344/global-warming.png"
@@ -44,100 +44,57 @@ const Section6 = () => {
                 />
                 <h5>GLOBAL</h5>
                 <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Magnam ipsum optio ipsa sapiente totam. Fuga omnis pariatur
-                  repellendus explicabo quas aspernatur deleniti, minus animi
-                  libero aut dicta assumenda maxime sequi.
+                  10 Swap are global and can be sent over the internet. They're
+                  easy to receive or send once you have an Ethereum account
                 </p>
               </Card.Body>
             </Card>
           </SplideSlide>
           <SplideSlide>
-            <Card className="shadow">
+            <Card className="shadow" style={{ height: "100%" }}>
               <Card.Body className="d-flex flex-column align-items-center">
                 <img
-                  src="https://img.icons8.com/fluent/344/global-warming.png"
+                  src="https://img.icons8.com/fluency/344/change.png"
                   height={90}
                   alt=""
                 />
-                <h5>GLOBAL</h5>
+                <h5>EXCHANGEABLE</h5>
                 <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Magnam ipsum optio ipsa sapiente totam. Fuga omnis pariatur
-                  repellendus explicabo quas aspernatur deleniti, minus animi
-                  libero aut dicta assumenda maxime sequi.
+                  10 Swap are exchangeable for ETH and other Ethereum tokens.
+                  Lots of dapps rely on 10 Swap.
                 </p>
               </Card.Body>
             </Card>
           </SplideSlide>
           <SplideSlide>
-            <Card className="shadow">
+            <Card className="shadow" style={{ height: "100%" }}>
               <Card.Body className="d-flex flex-column align-items-center">
                 <img
-                  src="https://img.icons8.com/fluent/344/global-warming.png"
+                  src="https://img.icons8.com/external-ddara-lineal-color-ddara/344/external-demand-business-elements-ddara-lineal-color-ddara.png"
                   height={90}
                   alt=""
                 />
-                <h5>GLOBAL</h5>
+                <h5>HIGH DEMAND</h5>
                 <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Magnam ipsum optio ipsa sapiente totam. Fuga omnis pariatur
-                  repellendus explicabo quas aspernatur deleniti, minus animi
-                  libero aut dicta assumenda maxime sequi.
+                  Demand for stablecoin in high, so you can earn interest for
+                  lending yours. Make sure you're aware of the risks before
+                  lending.
                 </p>
               </Card.Body>
             </Card>
           </SplideSlide>
           <SplideSlide>
-            <Card className="shadow">
+            <Card className="shadow" style={{ height: "100%" }}>
               <Card.Body className="d-flex flex-column align-items-center">
                 <img
-                  src="https://img.icons8.com/fluent/344/global-warming.png"
+                  src="https://img.icons8.com/fluency/344/envelope-secured.png"
                   height={90}
                   alt=""
                 />
-                <h5>GLOBAL</h5>
+                <h5>SECURED</h5>
                 <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Magnam ipsum optio ipsa sapiente totam. Fuga omnis pariatur
-                  repellendus explicabo quas aspernatur deleniti, minus animi
-                  libero aut dicta assumenda maxime sequi.
-                </p>
-              </Card.Body>
-            </Card>
-          </SplideSlide>
-          <SplideSlide>
-            <Card className="shadow">
-              <Card.Body className="d-flex flex-column align-items-center">
-                <img
-                  src="https://img.icons8.com/fluent/344/global-warming.png"
-                  height={90}
-                  alt=""
-                />
-                <h5>GLOBAL</h5>
-                <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Magnam ipsum optio ipsa sapiente totam. Fuga omnis pariatur
-                  repellendus explicabo quas aspernatur deleniti, minus animi
-                  libero aut dicta assumenda maxime sequi.
-                </p>
-              </Card.Body>
-            </Card>
-          </SplideSlide>
-          <SplideSlide>
-            <Card className="shadow">
-              <Card.Body className="d-flex flex-column align-items-center">
-                <img
-                  src="https://img.icons8.com/fluent/344/global-warming.png"
-                  height={90}
-                  alt=""
-                />
-                <h5>GLOBAL</h5>
-                <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Magnam ipsum optio ipsa sapiente totam. Fuga omnis pariatur
-                  repellendus explicabo quas aspernatur deleniti, minus animi
-                  libero aut dicta assumenda maxime sequi.
+                  10 Swap are secured by cryptography. No one can forge
+                  transaction on your behalf.
                 </p>
               </Card.Body>
             </Card>
