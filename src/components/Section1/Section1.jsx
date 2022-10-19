@@ -9,7 +9,7 @@ const Section1 = () => {
           initial={{ opacity: 0, x: 500 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ type: "spring", bounce: 0.5, duration: 3 }}>
-          We have offices in the Eight global financial capitals. Do you want to
+          We have offices in the eight global financial capitals. Do you want to
           join us?
         </motion.h5>
         <motion.h1
