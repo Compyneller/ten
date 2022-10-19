@@ -1,28 +1,80 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-
+import logo from "../assets/Group 1.png";
+import { Link } from "react-router-dom";
+import sheild from "../assets/icons8-shield-100.png";
+import alchemy from "../assets/Alchemy.67ed4ee30c45cc6a0b94.png";
 const Footer = () => {
   return (
-    <div className="py-5 bg-dark text-light text-center">
-      <Container>
-        <p style={{ fontSize: "12px" }}>
-          The purpose of this website is solely to display information regarding
-          the products and services available on the 10 Swap.co.in App. It is
-          not intended to offer access to any of such products and services. You
-          may obtain access to such products and services on the 10 Swap.co.in
-          App.Please note that the availability of the products and services on
-          the 10 Swap.co.in App is subject to jurisdictional limitations. 10
-          Swap.co.in may not offer certain products, features and/or services on
-          the 10 Swap.co.in App in certain jurisdictions due to potential or
-          actual regulatory restrictions.
-        </p>
-        <p style={{ fontSize: "12px" }}>
-          10 Swap is the trading name of Trackon Canada Private Limited and it
-          is situated at the address – 1200- 1015 4 ST SW, Calgary, Alberta, T2R
-          1J4, Canada
-        </p>
-      </Container>
-    </div>
+    <>
+      <div className="footerContainer" style={{ overflowX: "hidden" }}>
+        <div className="container text-light">
+          <div className="row">
+            <div className="col-12 col-lg-4 ">
+              <div className="d-flex align-items-center justify-content-center flex-column footerSocialsIcons">
+                <img src={logo} alt="" className="logoImage" />
+                <h1
+                  className="mx-auto"
+                  style={{ fontWeight: "700", fontSize: "35px" }}>
+                  10 Swap
+                </h1>
+              </div>
+            </div>
+            <div className="col-12 col-lg-4 footerSocialsIcons">
+              <p style={{ fontSize: "20px " }}>
+                Contact :{" "}
+                <a href="mailto:hello@10swap.finance">hello@10swap.finance</a>{" "}
+              </p>
+              <p style={{ fontSize: "20px " }}>Follow Us :</p>
+              <div
+                className="d-flex w-100  align-items-center footerIcons "
+                style={{ gap: "1rem" }}>
+                <a href="https://mobile.twitter.com/INRDcoin" target="_blank">
+                  <i className="fa-brands fa-twitter"></i>
+                </a>
+
+                <a href="https://t.me/INRD8" target="_blank">
+                  <i className="fa-brands fa-telegram"></i>
+                </a>
+
+                <a
+                  href="https://discord.com/channels/961181494813016144/961181494813016146"
+                  target="_blank">
+                  <i className="fa-brands fa-discord"></i>
+                </a>
+              </div>
+            </div>
+            <div className="col-12 col-lg-4 d-flex flex-column align-items-end footerSocialsIcons">
+              <div className="certificate">
+                <div className="row">
+                  <div className="col-2 d-flex align-items-center ">
+                    <img src={sheild} alt="" className=" sheild" />
+                  </div>
+                  <div className="col-10 d-flex align-items-start justify-content-center  mt-2  flex-column">
+                    <img className="w-50" src={alchemy} alt="" />
+                    <h6>Certified Instructure</h6>
+                  </div>
+                </div>
+              </div>
+              <p className="my-4 text-secondary">
+                © 2022 10 Swap. All right reserved
+              </p>
+            </div>
+          </div>
+          <br />
+          <div
+            className="w-100 d-flex justify-content-center"
+            style={{ gap: "3rem" }}>
+            <Link style={{ color: "#ffff" }} to="/pp" target="_blank">
+              Privacy Policy
+            </Link>
+            <Link style={{ color: "#ffff" }} to="/tc" target="_blank">
+              Terms and Conditions
+            </Link>
+          </div>
+        </div>
+      </div>
+    </>
   );
 };
 

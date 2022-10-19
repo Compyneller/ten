@@ -38,6 +38,90 @@ const Section1 = () => {
                   variant="top"
                   height={300}
                   style={{ objectFit: "cover" }}
+                  src="https://images.unsplash.com/photo-1532664189809-02133fee698d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+                />
+                <Card.Body className="text-center text-light">
+                  <h5>India</h5>
+                </Card.Body>
+              </Card>
+            </motion.div>
+          </Col>
+          <Col xs={12} sm={6} md={4} lg={3}>
+            <motion.div
+              initial={{ scale: 2, opacity: 0 }}
+              whileInView={{ scale: 1, opacity: 1 }}
+              viewport={{ once: true, amount: ".5" }}
+              transition={{ type: "spring", bounce: 0.3, duration: 3 }}>
+              <Card
+                className="shadow"
+                style={{ background: "#002242", border: "none" }}>
+                <Card.Img
+                  variant="top"
+                  height={300}
+                  style={{ objectFit: "cover" }}
+                  src="https://images.unsplash.com/photo-1565967511849-76a60a516170?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
+                />
+                <Card.Body className="text-center text-light">
+                  <h5>Singapore</h5>
+                </Card.Body>
+              </Card>
+            </motion.div>
+          </Col>
+          <Col xs={12} sm={6} md={4} lg={3}>
+            <motion.div
+              initial={{ scale: 2, opacity: 0 }}
+              whileInView={{ scale: 1, opacity: 1 }}
+              viewport={{ once: true, amount: ".5" }}
+              transition={{ type: "spring", bounce: 0.3, duration: 3 }}>
+              <Card
+                className="shadow"
+                style={{ background: "#002242", border: "none" }}>
+                <Card.Img
+                  variant="top"
+                  height={300}
+                  style={{ objectFit: "cover" }}
+                  src="https://images.unsplash.com/photo-1528287942171-fbe365d1d9ac?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+                />
+                <Card.Body className="text-center text-light">
+                  <h5>New Zealand</h5>
+                </Card.Body>
+              </Card>
+            </motion.div>
+          </Col>
+          <Col xs={12} sm={6} md={4} lg={3}>
+            <motion.div
+              initial={{ scale: 2, opacity: 0 }}
+              whileInView={{ scale: 1, opacity: 1 }}
+              viewport={{ once: true, amount: ".5" }}
+              transition={{ type: "spring", bounce: 0.3, duration: 3 }}>
+              <Card
+                className="shadow"
+                style={{ background: "#002242", border: "none" }}>
+                <Card.Img
+                  variant="top"
+                  height={300}
+                  style={{ objectFit: "cover" }}
+                  src="https://images.unsplash.com/photo-1519121785383-3229633bb75b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
+                />
+                <Card.Body className="text-center text-light">
+                  <h5>United States</h5>
+                </Card.Body>
+              </Card>
+            </motion.div>
+          </Col>
+          <Col xs={12} sm={6} md={4} lg={3}>
+            <motion.div
+              initial={{ scale: 2, opacity: 0 }}
+              whileInView={{ scale: 1, opacity: 1 }}
+              viewport={{ once: true, amount: ".5" }}
+              transition={{ type: "spring", bounce: 0.3, duration: 3 }}>
+              <Card
+                className="shadow"
+                style={{ background: "#002242", border: "none" }}>
+                <Card.Img
+                  variant="top"
+                  height={300}
+                  style={{ objectFit: "cover" }}
                   src="https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2130&q=80"
                 />
                 <Card.Body className="text-center text-light">

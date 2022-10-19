@@ -19,3 +19,60 @@ h1{
 h5{
   font-weight: 600 !important;
 }
+.fixed-container {
+  background: #002242;
+}
+.logoImage {
+  width:70px;
+  margin-right: 10px;
+
+  image-rendering: auto;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+
+  /* Safari seems to support, but seems deprecated and does the same thing as the others. */
+  image-rendering: -webkit-optimize-contrast;
+}
+.footerSocialsIcons i{
+
+  font-size: 30px;
+}
+
+.footerH5 {
+  margin-bottom: 1rem;
+}
+.footerContainer {
+  background: #212121;
+  padding: 5rem 0;
+}
+.footerContainer h5 {
+  color: #9e9e9e !important;
+}
+.certificate {
+  width: 18rem;
+  padding: 0.5rem 0.5rem;
+  border: 1px solid #9e9e9e;
+  border-radius: 10px;
+}
+.certificate i {
+  color: blue;
+  font-size: 40px;
+}
+.certificate img {
+  filter: invert(1);
+}
+.sheild {
+  height: 50px;
+  filter: invert(0) !important;
+}
+.certificate h1 {
+  font-size: 18px;
+  letter-spacing: 2px;
+  width: 100%;
+}
+.customFooter a {
+  color: white;
+}
+.customFooter i {
+  font-size: 25px;
+}

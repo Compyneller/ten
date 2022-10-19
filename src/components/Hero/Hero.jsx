@@ -16,7 +16,7 @@ const Hero = () => {
               initial={{ x: -500, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ type: "spring", bounce: 0.5, duration: 2 }}>
-              SEND 10 SWAP WORLDWIDE
+              SEND (10 SWAP) <br /> WORLDWIDE
             </motion.h1>
             <motion.h5
               initial={{ x: -500, opacity: 0 }}

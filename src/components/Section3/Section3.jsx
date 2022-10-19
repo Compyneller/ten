@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import image from "../../assets/Mobile.webp";
+import image from "../../assets/10 SWAP_IMG 01_19 Oct'22.jpg";
 import { motion } from "framer-motion";
 const Section3 = () => {
   return (
@@ -26,8 +26,8 @@ const Section3 = () => {
                 duration: 2,
                 delay: 0.25,
               }}>
-              The Stablecoin mobile app adapts the full functionality of the
-              Stablecoin platform for seamless ‘on-the-go’ trading
+              The 10 Swap mobile app adapts the full functionality of the 10
+              Swap platform for seamless ‘on-the-go’ trading
             </motion.p>
           </Col>
           <Col sm={12} lg={6}>
@@ -36,6 +36,7 @@ const Section3 = () => {
               whileInView={{ x: 0, opacity: 1 }}
               transition={{ type: "spring", bounce: 0.3, duration: 2 }}
               src={image}
+              style={{ borderRadius: "20px" }}
               alt=""
               className="w-100"
             />
