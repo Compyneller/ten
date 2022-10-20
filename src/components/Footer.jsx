@@ -85,9 +85,6 @@ const Footer = () => {
       <div
         className="d-flex flex-column text-light justify-content-center align-items-center bg-dark py-3"
         style={{ background: "#212121" }}>
-        <p className="text-light my-auto mb-2">
-          10 swap is the trading name for Fireblocks Private Ltd.
-        </p>
         <p className="text-light my-auto">
           ©10 SWAP all rights reserved. 10 SWAP is the trading name for Fire
           Blocks Private Limited and it's Corporate Access Number is 2023529536
