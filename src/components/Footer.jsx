@@ -11,7 +11,7 @@ const Footer = () => {
         <Container>
           <Row className="g-3 d-flex justify-content-center align-items-center">
             <Col
-              xs={6}
+              xs={12}
               sm={6}
               md={4}
               lg={2}
@@ -24,7 +24,7 @@ const Footer = () => {
               </h1>
             </Col>
             <Col
-              xs={6}
+              xs={12}
               sm={6}
               md={4}
               lg={2}
@@ -38,7 +38,7 @@ const Footer = () => {
               </Link>
             </Col>
             <Col
-              xs={6}
+              xs={12}
               sm={6}
               md={4}
               lg={3}
